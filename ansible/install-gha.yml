@@ -1,0 +1,7 @@
+---
+- name: Install GitHub Actions wirh Ansible
+  hosts: all
+  become: yes
+  tasks:
+    - name: update SO packages
+      apt: pkg=* state=latest
