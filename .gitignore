@@ -1,1 +1,9 @@
-.vagrant
+## Vagrant
+.vagrant/
+boxes/*
+
+## Ansible
+*.retry
+*.original
+*.tmp
+*.bkp
